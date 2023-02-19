@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  justify-content: space-around;
+
+  #searchByName,
+  #searchByPrice {
+    width: 25vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .form {
+    flex-direction: column;
+    gap: 20px;
+
+    #searchByName,
+    #searchByPrice {
+      width: 80vw;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.boxItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  div {
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    background-color: #bcf57f;
+    padding-top: 15px;
+    border-radius: 10%;
+  }
+  a {
+    color: rgb(4, 49, 66);
+  }
+}
+
+.contact {
+  background-color: #4c8e4c;
+
+  img {
+    width: 98.5vw;
+    height: 50vh;
+  }
+
+  h2 {
+    padding-top: 50px;
+
+    text-align: center;
+    span {
+      background-color: #bcf57f;
+      color: rgb(4, 49, 66);
+      padding: 10px;
+      border-top-left-radius: 60%;
+      border-top-right-radius: 60%;
+      font-weight: bold;
+    }
+  }
+}
