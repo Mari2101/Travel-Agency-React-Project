@@ -1,5 +1,4 @@
 # Dtours - Travel Agency app
-Mari Iobashvili - W140722MR - Full Stack Development Course - email: marieiobashvili@gmail.com
 
 This project was created with React, Bootstrap and Saas.
 
